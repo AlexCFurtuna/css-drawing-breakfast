@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+body {
+    background-color: rgb(245, 195, 164);
+}
+.wrapper {
+    margin: 150px 550px;
+    width: 700px;
+    height: 700px;
+    border: 7px solid darkgray;
+    border-radius: 50%;
+    position: absolute;
+    background: gray;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+.handle {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background: #373335;
+    border-radius: 50px;
+    top: 465px;
+    left: 100px;
+    z-index: 0;
+}
+.canvas {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    border-radius: 5px solid black;
+    background: lightgray;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: darkgray;
+}
+.eggs {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}   
+.eggs .egg-one {
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+}
+.eggs .egg-two {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+    background: white;
+}
+.yolk-one {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #ffd400, #e0b200);
+    border-radius: 50%;
+    top: 70px;
+}
+.yolk-two {
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(225deg, #ffd400, #e0b200);
+    border-radius: 50%;
+    top: 60px;
+}
